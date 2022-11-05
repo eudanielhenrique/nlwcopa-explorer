@@ -11,7 +11,7 @@
 
 
 <h1 align="center">
- <img src="/assets/img/illustrations/Online%20page-cuate.svg" style="width: 30%!important;" alt="User registration"></center>
+ <img src="/assets/img/logo.svg" style="width: 30%!important;" alt="User registration"></center>
 </h1>
 
 Project developed during the Next Level Week Cup, on the explorer 2022 trail
