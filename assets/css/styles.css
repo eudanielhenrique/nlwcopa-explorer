@@ -25,6 +25,10 @@
   --bg: url(../img/bg-yellow.svg);
 }
 
+.hidden{
+  visibility: hidden;
+}
+
 body.blue {
   --card-title-border-color: var(--blue);
   --card-color-primary: var(--blue);
