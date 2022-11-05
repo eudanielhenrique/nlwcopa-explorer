@@ -4,7 +4,6 @@ function createGame(team1, hour, team2) {
   <img
     src="./assets/img/icons/icon=${team1}.svg"
     alt="Bandeira ${team1}"
-    value="PLAY"
     onclick="play()"
   />
   <strong class="horarios"> ${hour} </strong>
