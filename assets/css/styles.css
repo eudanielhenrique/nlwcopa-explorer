@@ -23,6 +23,7 @@
   --card-color-primary: var(--yellow);
   --card-bg-color: var(--grey-dark);
   --bg: url(../img/bg-yellow.svg);
+  scroll-behavior: smooth;
 }
 
 .hidden{
@@ -76,6 +77,8 @@ header {
   display: flex;
   flex-direction: column;
   gap: 32px;
+
+  
 }
 
 .card {
@@ -126,29 +129,32 @@ header {
 .card ul li + li {
   border-top: 1px solid #323238;
   padding-top: 24px;
+  
 }
 
 .card ul li strong {
   color: var(--gray-gray);
   font-weight: 900;
   font-size: 36px;
+  
 }
 
 .card h2:hover,
-.card ul li strong:hover,
 .card ul li img:hover {
   transform: scale(1.1);
+  
 }
 
 .card h2:hover,
-.card ul li strong,
 .card ul li img {
   transition: transform 0.3s;
+  
 }
 
 .card {
   opacity: 0;
   animation: appear 0.2s forwards;
+  
 }
 
 @keyframes appear {
@@ -167,4 +173,26 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
   }
+}
+
+.btn-fixed {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--card-color-primary);
+
+  visibility: hidden;
+}
+
+.btn-fixed.visible {
+  animation: appear 5s forwards;
+  visibility: visible;
 }

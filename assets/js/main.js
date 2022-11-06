@@ -2,27 +2,27 @@ function createGame(team1, hour, team2) {
   return `
   <li>
   <img
+    id="${team1}"
     src="./assets/img/icons/icon=${team1}.svg"
     alt="Bandeira ${team1}"
-    value="PLAY"
     onclick="play()"
   />
-  <strong class="horarios"> ${hour} </strong>
+  <strong class="brilho"> ${hour} </strong>
   <img
+    id="${team2}"
     src="./assets/img/icons/icon=${team2}.svg"
     alt="Bandeira ${team2}"
-    value="PLAY"
     onclick="play()"
   />
 </li>
 `;
 }
 
-let delay = -0.4;
+//let delay = -0.4;
 function createCard(date, day, games) {
-  delay = delay + 0.4;
+  //delay = delay + 0.4;
   return `
-  <div class="card" style="animation-delay: ${delay}s">
+  <div class="card" >
     <h2>${date} <span>${day}</span></h2>
     <ul>
       ${games}
@@ -130,7 +130,19 @@ document.querySelector("#cards").innerHTML =
   )
 ;
 
-  function play() {
-      var audio = document.getElementById("BrasilSil");
-      audio.play();
+var compAudio = document.querySelector("#brazil");
+
+compAudio.addEventListener("click", function (e) {
+  var audio = document.getElementById("BrasilSil");
+  audio.play();
+})
+
+const btn = document.querySelector(".btn-fixed");
+
+window.addEventListener("scroll", function (event) {
+  if (window.scrollY == 0) {
+    btn.classList.remove("visible");
+  } else {
+    btn.classList.add("visible");
   }
+});
