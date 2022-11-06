@@ -1,8 +1,5 @@
 # nlwcopa-explorer
 
-# CRUDphp
-
- 
 ![GitHub repo size](https://img.shields.io/github/repo-size/eudanielhenrique/nlwcopa-explorer?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/eudanielhenrique/nlwcopa-explorer?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/eudanielhenrique/nlwcopa-explorer?style=for-the-badge)
@@ -11,7 +8,7 @@
 
 
 <h1 align="center">
- <img src="/assets/img/logo.svg" style="width: 30%!important;" alt="User registration"></center>
+ <img src="https://i.imgur.com/hJW42tI.png" style="width: 30%!important;" alt="User registration"></center>
 </h1>
 
 Project developed during the Next Level Week Cup, on the explorer 2022 trail
