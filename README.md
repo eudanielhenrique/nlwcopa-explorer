@@ -8,7 +8,7 @@
 
 
 <h1 align="center">
- <img src="https://i.imgur.com/hJW42tI.png" style="width: 30%!important;" alt="User registration"></center>
+ <img src="https://i.imgur.com/hJW42tI.png" alt="User registration"></center>
 </h1>
 
 Project developed during the Next Level Week Cup, on the explorer 2022 trail
