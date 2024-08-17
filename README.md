@@ -1,4 +1,4 @@
-# nlwcopa-explorer
+# mesa-comanda
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/eudanielhenrique/nlwcopa-explorer?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/eudanielhenrique/nlwcopa-explorer?style=for-the-badge)
@@ -7,15 +7,9 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/eudanielhenrique/nlwcopa-explorer?style=for-the-badge)
 
 
-<h1 align="center">
- <img src="https://i.imgur.com/hJW42tI.png" alt="User registration"></center>
-</h1>
-
-Project developed during the Next Level Week Cup, on the explorer 2022 trail
-
 ## 🚀 Instruction to start
-- Clone the repository using the command ``` git clone git@github.com:eudanielhenrique/nlwcopa-explorer.git```
-- Go to the downloaded CrudPhp directory using ```cd nlwcopa-explorer``` command in command line
+- Clone the repository using the command ``` git clone git@github.com:eudanielhenrique/mesa-comanda.git```
+- Go to the downloaded CrudPhp directory using ```cd mesa-comanda``` command in command line
 
 - Used for study purposes only.
 - Have a good time
